@@ -69,6 +69,8 @@ Our trained model achieved **AUC = ~0.99** on the test set, showing strong poten
 
 Grad-CAM overlays are generated to visualise regions in X-rays most influential in classification, improving model transparency for clinical adoption.
 
+![Grad-CAM Visualisation](images/augmentation.png)
+
 
 ## Project Structure
 
