@@ -31,12 +31,13 @@ A deep learning-based system using Convolutional Neural Networks (CNN) to automa
 6.  [Methodology and Model Overview](#methodology-and-model-overview)
 7.  [Results](#results)
     - [Key Metrics](#key-metrics)
-8.  [Project Poster](#project-poster)
-9.  [Future Work](#future-work)
-10. [Contributing](#contributing)
-11. [License](#license)
-12. [Contact](#contact)
-
+8.  [Dataset](#dataset)
+9.  [Project Poster](#project-poster)
+10.  [Future Work](#future-work)
+11. [Contributing](#contributing)
+12. [License](#license)
+13. [Contact](#contact)
+14. [Credits](#credits)
 
 ## Abstract
 
@@ -243,6 +244,27 @@ This plot illustrates the model's training progression over epochs, showing both
 
 Our deep learning model demonstrates robust diagnostic capabilities for accurately differentiating **COVID-19**, **Normal**, and **Pneumonia** cases from chest X-rays. The **classification report** and **confusion matrix** highlight high precision, recall, and F1-scores across all classes, indicating a low misdiagnosis rate for critical conditions crucial for timely clinical intervention. The multi-class **ROC AUC curves**, consistently near 1.0, further affirm the model's exceptional diagnostic ability across these distinct pathologies. Furthermore, the **accuracy** and **loss curves** illustrate stable training and strong generalization to the validation set, suggesting the model's stability and readiness for new, unseen data.
 
+## Dataset
+
+The dataset used in this project is publicly available on Kaggle. You can download it from the following link:
+
+[Chest X-ray Image Dataset by Alsaniipe](https://www.kaggle.com/datasets/alsaniipe/chest-x-ray-image)
+
+### Directory Structure for Dataset
+
+Once you've downloaded and extracted the dataset, make sure your directory structure looks like this:
+
+```plaintext
+Data/
+├── train/
+│   ├── COVID19/
+│   ├── NORMAL/
+│   └── PNEUMONIA/
+├── test/
+│   ├── COVID19/
+│   ├── NORMAL/
+│   └── PNEUMONIA/
+```
 
 ## Project Poster
 
@@ -273,3 +295,7 @@ This project is licensed under the MIT License.
 For any queries, Contact:  
 **Akash Nair** – [akash.nair@ucdconnect.ie](mailto:akash.nair@ucdconnect.ie)  
 **Jagruti Patil** – [jagruti.patil@ucdconnect.ie](mailto:jagruti.patil@ucdconnect.ie)
+
+## Credits
+
+This project is in collaboration with [Jagruti Patil](https://github.com/JagrutiPatil09)
